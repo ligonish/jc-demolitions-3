@@ -1529,7 +1529,7 @@ mortgages_tract_18 %>%
   scale_fill_viridis_c() 
 ```
 
-![](README_Ligon_3_files/figure-gfm/unnamed-chunk-64-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-64-1.png)<!-- -->
 
 ``` r
 # % Not Mortgaged
@@ -1541,7 +1541,7 @@ mortgages_tract_18 %>%
   scale_fill_viridis_c()
 ```
 
-![](README_Ligon_3_files/figure-gfm/unnamed-chunk-64-2.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-64-2.png)<!-- -->
 
 ``` r
 # Faceted 
@@ -1555,7 +1555,7 @@ mortgages_tract_18 %>%
   labs(fill = "% of all owner-occupied units\n(2018 Census)")
 ```
 
-![](README_Ligon_3_files/figure-gfm/unnamed-chunk-64-3.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-64-3.png)<!-- -->
 
 B25071_001: rent burden
 
@@ -1580,7 +1580,7 @@ rentburden_tract_18 %>%
   labs(fill = "median hh rent-burdened (2018 ACS 5-yr)")
 ```
 
-![](README_Ligon_3_files/figure-gfm/unnamed-chunk-65-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-65-1.png)<!-- -->
 
 B25002: Occupancy Status
 
@@ -1619,7 +1619,7 @@ vacant_tract_18 %>%
   )
 ```
 
-![](README_Ligon_3_files/figure-gfm/unnamed-chunk-66-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-66-1.png)<!-- -->
 
 ``` r
 # As Barplot
@@ -1656,7 +1656,7 @@ vacant_tract_18 %>%
   )
 ```
 
-![](README_Ligon_3_files/figure-gfm/unnamed-chunk-66-2.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-66-2.png)<!-- -->
 
 B19058: Public Assistance
 
@@ -1682,7 +1682,7 @@ assistance %>%
   labs(fill = "% hh receiving pub asst (2018 ACS 5-yr)")
 ```
 
-![](README_Ligon_3_files/figure-gfm/unnamed-chunk-67-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-67-1.png)<!-- -->
 
 B25039: tenure duration
 
@@ -1707,7 +1707,7 @@ duration %>%
   labs(fill = "med yr moved in (2018 ACS 5-yr)")
 ```
 
-![](README_Ligon_3_files/figure-gfm/unnamed-chunk-68-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-68-1.png)<!-- -->
 
 ### Appendix B: Plots
 
@@ -1751,7 +1751,7 @@ entities %>%
   theme(axis.text.x=element_blank())
 ```
 
-![](README_Ligon_3_files/figure-gfm/unnamed-chunk-70-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-70-1.png)<!-- -->
 
 #### Plot 3: Vacancy Rates, 2014-2018
 
@@ -1789,7 +1789,7 @@ vacant_tract_18 %>%
   )
 ```
 
-![](README_Ligon_3_files/figure-gfm/unnamed-chunk-71-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-71-1.png)<!-- -->
 
 #### Plot 4: Entities Who Bought, Demolished, and Sold the Highest Numbers of Distinct Parcels
 
@@ -1831,4 +1831,4 @@ entities %>%
   )
 ```
 
-![](README_Ligon_3_files/figure-gfm/unnamed-chunk-72-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-72-1.png)<!-- -->
