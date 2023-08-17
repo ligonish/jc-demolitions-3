@@ -1,0 +1,699 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0008_ds239_20185_tract'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2014-2018
+Geographic level: Census Tract (by State--County)
+Dataset:          2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+   NHGIS code:    2014_2018_ACS5a
+   NHGIS ID:      ds239
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Ratio of Income to Poverty Level in the Past 12 Months
+   Universe:    Population for whom poverty status is determined
+   Source code: C17002
+   NHGIS code:  AJY4
+ 
+2. Median Household Income in the Past 12 Months (in 2018 Inflation-Adjusted Dollars)
+   Universe:    Households
+   Source code: B19013
+   NHGIS code:  AJZA
+ 
+3. Public Assistance Income or Food Stamps/SNAP in the Past 12 Months for Households
+   Universe:    Households
+   Source code: B19058
+   NHGIS code:  AJZV
+ 
+4. Occupancy Status
+   Universe:    Housing units
+   Source code: B25002
+   NHGIS code:  AJ1T
+ 
+5. Tenure
+   Universe:    Occupied housing units
+   Source code: B25003
+   NHGIS code:  AJ1U
+ 
+6. Tenure (Black or African American Alone Householder)
+   Universe:    Occupied housing units with a householder who is Black or African American alone
+   Source code: B25003B
+   NHGIS code:  AJ1W
+ 
+7. Tenure (Asian Alone Householder)
+   Universe:    Occupied housing units with a householder who is Asian alone
+   Source code: B25003D
+   NHGIS code:  AJ1Y
+ 
+8. Tenure (White Alone, Not Hispanic or Latino Householder)
+   Universe:    Occupied housing units with a householder who is White alone, not Hispanic or Latino
+   Source code: B25003H
+   NHGIS code:  AJ12
+ 
+9. Tenure (Hispanic or Latino Householder)
+   Universe:    Occupied housing units with a householder who is Hispanic or Latino
+   Source code: B25003I
+   NHGIS code:  AJ13
+ 
+10. Vacancy Status
+    Universe:    Vacant housing units
+    Source code: B25004
+    NHGIS code:  AJ14
+ 
+11. Units in Structure
+    Universe:    Housing units
+    Source code: B25024
+    NHGIS code:  AJ2J
+ 
+12. Tenure by Units in Structure
+    Universe:    Occupied housing units
+    Source code: B25032
+    NHGIS code:  AJ2K
+ 
+13. Median Year Structure Built
+    Universe:    Housing units
+    Source code: B25035
+    NHGIS code:  AJ2N
+ 
+14. Median Year Structure Built by Tenure
+    Universe:    Occupied housing units
+    Source code: B25037
+    NHGIS code:  AJ2P
+ 
+15. Median Year Householder Moved into Unit by Tenure
+    Universe:    Occupied housing units
+    Source code: B25039
+    NHGIS code:  AJ2R
+ 
+16. Rent Asked
+    Universe:    Vacant-for-rent and rented, not occupied housing units
+    Source code: B25061
+    NHGIS code:  AJ3B
+ 
+17. Median Gross Rent (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25064
+    NHGIS code:  AJ3E
+ 
+18. Median Gross Rent as a Percentage of Household Income in the Past 12 Months (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25071
+    NHGIS code:  AJ3L
+ 
+19. Median Value (Dollars)
+    Universe:    Owner-occupied housing units
+    Source code: B25077
+    NHGIS code:  AJ3Q
+ 
+20. Price Asked
+    Universe:    Vacant-for-sale-only and sold, not occupied housing units
+    Source code: B25085
+    NHGIS code:  AJ3X
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State Postal Abbreviation
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        BLKGRPA:     Block Group Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AIHHTLI:     American Indian Trust Land/ Hawaiian Home Land Indicator
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2019-2021, 116th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PCI:         Principal City Indicator
+        PUMAA:       Public Use Microdata Area Code
+        GEOID:       Census Geographic Identifier
+        BTTRA:       Tribal Census Tract Code
+        BTBGA:       Tribal Block Group Code
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Ratio of Income to Poverty Level in the Past 12 Months
+    Universe:    Population for whom poverty status is determined
+    Source code: C17002
+    NHGIS code:  AJY4
+        AJY4E001:    Total
+        AJY4E002:    Under .50
+        AJY4E003:    .50 to .99
+        AJY4E004:    1.00 to 1.24
+        AJY4E005:    1.25 to 1.49
+        AJY4E006:    1.50 to 1.84
+        AJY4E007:    1.85 to 1.99
+        AJY4E008:    2.00 and over
+ 
+    Table 2:     Median Household Income in the Past 12 Months (in 2018 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  AJZA
+        AJZAE001:    Median household income in the past 12 months (in 2018 inflation-adjusted dollars)
+ 
+    Table 3:     Public Assistance Income or Food Stamps/SNAP in the Past 12 Months for Households
+    Universe:    Households
+    Source code: B19058
+    NHGIS code:  AJZV
+        AJZVE001:    Total
+        AJZVE002:    With cash public assistance or Food Stamps/SNAP
+        AJZVE003:    No cash public assistance or Food Stamps/SNAP
+ 
+    Table 4:     Occupancy Status
+    Universe:    Housing units
+    Source code: B25002
+    NHGIS code:  AJ1T
+        AJ1TE001:    Total
+        AJ1TE002:    Occupied
+        AJ1TE003:    Vacant
+ 
+    Table 5:     Tenure
+    Universe:    Occupied housing units
+    Source code: B25003
+    NHGIS code:  AJ1U
+        AJ1UE001:    Total
+        AJ1UE002:    Owner occupied
+        AJ1UE003:    Renter occupied
+ 
+    Table 6:     Tenure (Black or African American Alone Householder)
+    Universe:    Occupied housing units with a householder who is Black or African American alone
+    Source code: B25003B
+    NHGIS code:  AJ1W
+        AJ1WE001:    Total
+        AJ1WE002:    Owner occupied
+        AJ1WE003:    Renter occupied
+ 
+    Table 7:     Tenure (Asian Alone Householder)
+    Universe:    Occupied housing units with a householder who is Asian alone
+    Source code: B25003D
+    NHGIS code:  AJ1Y
+        AJ1YE001:    Total
+        AJ1YE002:    Owner occupied
+        AJ1YE003:    Renter occupied
+ 
+    Table 8:     Tenure (White Alone, Not Hispanic or Latino Householder)
+    Universe:    Occupied housing units with a householder who is White alone, not Hispanic or Latino
+    Source code: B25003H
+    NHGIS code:  AJ12
+        AJ12E001:    Total
+        AJ12E002:    Owner occupied
+        AJ12E003:    Renter occupied
+ 
+    Table 9:     Tenure (Hispanic or Latino Householder)
+    Universe:    Occupied housing units with a householder who is Hispanic or Latino
+    Source code: B25003I
+    NHGIS code:  AJ13
+        AJ13E001:    Total
+        AJ13E002:    Owner occupied
+        AJ13E003:    Renter occupied
+ 
+    Table 10:    Vacancy Status
+    Universe:    Vacant housing units
+    Source code: B25004
+    NHGIS code:  AJ14
+        AJ14E001:    Total
+        AJ14E002:    For rent
+        AJ14E003:    Rented, not occupied
+        AJ14E004:    For sale only
+        AJ14E005:    Sold, not occupied
+        AJ14E006:    For seasonal, recreational, or occasional use
+        AJ14E007:    For migrant workers
+        AJ14E008:    Other vacant
+ 
+    Table 11:    Units in Structure
+    Universe:    Housing units
+    Source code: B25024
+    NHGIS code:  AJ2J
+        AJ2JE001:    Total
+        AJ2JE002:    1, detached
+        AJ2JE003:    1, attached
+        AJ2JE004:    2
+        AJ2JE005:    3 or 4
+        AJ2JE006:    5 to 9
+        AJ2JE007:    10 to 19
+        AJ2JE008:    20 to 49
+        AJ2JE009:    50 or more
+        AJ2JE010:    Mobile home
+        AJ2JE011:    Boat, RV, van, etc.
+ 
+    Table 12:    Tenure by Units in Structure
+    Universe:    Occupied housing units
+    Source code: B25032
+    NHGIS code:  AJ2K
+        AJ2KE001:    Total
+        AJ2KE002:    Owner-occupied housing units
+        AJ2KE003:    Owner-occupied housing units: 1, detached
+        AJ2KE004:    Owner-occupied housing units: 1, attached
+        AJ2KE005:    Owner-occupied housing units: 2
+        AJ2KE006:    Owner-occupied housing units: 3 or 4
+        AJ2KE007:    Owner-occupied housing units: 5 to 9
+        AJ2KE008:    Owner-occupied housing units: 10 to 19
+        AJ2KE009:    Owner-occupied housing units: 20 to 49
+        AJ2KE010:    Owner-occupied housing units: 50 or more
+        AJ2KE011:    Owner-occupied housing units: Mobile home
+        AJ2KE012:    Owner-occupied housing units: Boat, RV, van, etc.
+        AJ2KE013:    Renter-occupied housing units
+        AJ2KE014:    Renter-occupied housing units: 1, detached
+        AJ2KE015:    Renter-occupied housing units: 1, attached
+        AJ2KE016:    Renter-occupied housing units: 2
+        AJ2KE017:    Renter-occupied housing units: 3 or 4
+        AJ2KE018:    Renter-occupied housing units: 5 to 9
+        AJ2KE019:    Renter-occupied housing units: 10 to 19
+        AJ2KE020:    Renter-occupied housing units: 20 to 49
+        AJ2KE021:    Renter-occupied housing units: 50 or more
+        AJ2KE022:    Renter-occupied housing units: Mobile home
+        AJ2KE023:    Renter-occupied housing units: Boat, RV, van, etc.
+ 
+    Table 13:    Median Year Structure Built
+    Universe:    Housing units
+    Source code: B25035
+    NHGIS code:  AJ2N
+        AJ2NE001:    Median year structure built
+ 
+    Table 14:    Median Year Structure Built by Tenure
+    Universe:    Occupied housing units
+    Source code: B25037
+    NHGIS code:  AJ2P
+        AJ2PE001:    Median year structure built: Total
+        AJ2PE002:    Median year structure built: Owner occupied
+        AJ2PE003:    Median year structure built: Renter occupied
+ 
+    Table 15:    Median Year Householder Moved into Unit by Tenure
+    Universe:    Occupied housing units
+    Source code: B25039
+    NHGIS code:  AJ2R
+        AJ2RE001:    Median year householder moved into unit: Total
+        AJ2RE002:    Median year householder moved into unit: Owner occupied
+        AJ2RE003:    Median year householder moved into unit: Renter occupied
+ 
+    Table 16:    Rent Asked
+    Universe:    Vacant-for-rent and rented, not occupied housing units
+    Source code: B25061
+    NHGIS code:  AJ3B
+        AJ3BE001:    Total
+        AJ3BE002:    Less than $100
+        AJ3BE003:    $100 to $149
+        AJ3BE004:    $150 to $199
+        AJ3BE005:    $200 to $249
+        AJ3BE006:    $250 to $299
+        AJ3BE007:    $300 to $349
+        AJ3BE008:    $350 to $399
+        AJ3BE009:    $400 to $449
+        AJ3BE010:    $450 to $499
+        AJ3BE011:    $500 to $549
+        AJ3BE012:    $550 to $599
+        AJ3BE013:    $600 to $649
+        AJ3BE014:    $650 to $699
+        AJ3BE015:    $700 to $749
+        AJ3BE016:    $750 to $799
+        AJ3BE017:    $800 to $899
+        AJ3BE018:    $900 to $999
+        AJ3BE019:    $1,000 to $1,249
+        AJ3BE020:    $1,250 to $1,499
+        AJ3BE021:    $1,500 to $1,999
+        AJ3BE022:    $2,000 to $2,499
+        AJ3BE023:    $2,500 to $2,999
+        AJ3BE024:    $3,000 to $3,499
+        AJ3BE025:    $3,500 or more
+ 
+    Table 17:    Median Gross Rent (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25064
+    NHGIS code:  AJ3E
+        AJ3EE001:    Median gross rent
+ 
+    Table 18:    Median Gross Rent as a Percentage of Household Income in the Past 12 Months (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25071
+    NHGIS code:  AJ3L
+        AJ3LE001:    Median gross rent as a percentage of household income
+ 
+    Table 19:    Median Value (Dollars)
+    Universe:    Owner-occupied housing units
+    Source code: B25077
+    NHGIS code:  AJ3Q
+        AJ3QE001:    Median value (dollars)
+ 
+    Table 20:    Price Asked
+    Universe:    Vacant-for-sale-only and sold, not occupied housing units
+    Source code: B25085
+    NHGIS code:  AJ3X
+        AJ3XE001:    Total
+        AJ3XE002:    Less than $10,000
+        AJ3XE003:    $10,000 to $14,999
+        AJ3XE004:    $15,000 to $19,999
+        AJ3XE005:    $20,000 to $24,999
+        AJ3XE006:    $25,000 to $29,999
+        AJ3XE007:    $30,000 to $34,999
+        AJ3XE008:    $35,000 to $39,999
+        AJ3XE009:    $40,000 to $49,999
+        AJ3XE010:    $50,000 to $59,999
+        AJ3XE011:    $60,000 to $69,999
+        AJ3XE012:    $70,000 to $79,999
+        AJ3XE013:    $80,000 to $89,999
+        AJ3XE014:    $90,000 to $99,999
+        AJ3XE015:    $100,000 to $124,999
+        AJ3XE016:    $125,000 to $149,999
+        AJ3XE017:    $150,000 to $174,999
+        AJ3XE018:    $175,000 to $199,999
+        AJ3XE019:    $200,000 to $249,999
+        AJ3XE020:    $250,000 to $299,999
+        AJ3XE021:    $300,000 to $399,999
+        AJ3XE022:    $400,000 to $499,999
+        AJ3XE023:    $500,000 to $749,999
+        AJ3XE024:    $750,000 to $999,999
+        AJ3XE025:    $1,000,000 to $1,499,999
+        AJ3XE026:    $1,500,000 to $1,999,999
+        AJ3XE027:    $2,000,000 or more
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Ratio of Income to Poverty Level in the Past 12 Months
+    Universe:    Population for whom poverty status is determined
+    Source code: C17002
+    NHGIS code:  AJY4
+        AJY4M001:    Total
+        AJY4M002:    Under .50
+        AJY4M003:    .50 to .99
+        AJY4M004:    1.00 to 1.24
+        AJY4M005:    1.25 to 1.49
+        AJY4M006:    1.50 to 1.84
+        AJY4M007:    1.85 to 1.99
+        AJY4M008:    2.00 and over
+ 
+    Table 2:     Median Household Income in the Past 12 Months (in 2018 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  AJZA
+        AJZAM001:    Median household income in the past 12 months (in 2018 inflation-adjusted dollars)
+ 
+    Table 3:     Public Assistance Income or Food Stamps/SNAP in the Past 12 Months for Households
+    Universe:    Households
+    Source code: B19058
+    NHGIS code:  AJZV
+        AJZVM001:    Total
+        AJZVM002:    With cash public assistance or Food Stamps/SNAP
+        AJZVM003:    No cash public assistance or Food Stamps/SNAP
+ 
+    Table 4:     Occupancy Status
+    Universe:    Housing units
+    Source code: B25002
+    NHGIS code:  AJ1T
+        AJ1TM001:    Total
+        AJ1TM002:    Occupied
+        AJ1TM003:    Vacant
+ 
+    Table 5:     Tenure
+    Universe:    Occupied housing units
+    Source code: B25003
+    NHGIS code:  AJ1U
+        AJ1UM001:    Total
+        AJ1UM002:    Owner occupied
+        AJ1UM003:    Renter occupied
+ 
+    Table 6:     Tenure (Black or African American Alone Householder)
+    Universe:    Occupied housing units with a householder who is Black or African American alone
+    Source code: B25003B
+    NHGIS code:  AJ1W
+        AJ1WM001:    Total
+        AJ1WM002:    Owner occupied
+        AJ1WM003:    Renter occupied
+ 
+    Table 7:     Tenure (Asian Alone Householder)
+    Universe:    Occupied housing units with a householder who is Asian alone
+    Source code: B25003D
+    NHGIS code:  AJ1Y
+        AJ1YM001:    Total
+        AJ1YM002:    Owner occupied
+        AJ1YM003:    Renter occupied
+ 
+    Table 8:     Tenure (White Alone, Not Hispanic or Latino Householder)
+    Universe:    Occupied housing units with a householder who is White alone, not Hispanic or Latino
+    Source code: B25003H
+    NHGIS code:  AJ12
+        AJ12M001:    Total
+        AJ12M002:    Owner occupied
+        AJ12M003:    Renter occupied
+ 
+    Table 9:     Tenure (Hispanic or Latino Householder)
+    Universe:    Occupied housing units with a householder who is Hispanic or Latino
+    Source code: B25003I
+    NHGIS code:  AJ13
+        AJ13M001:    Total
+        AJ13M002:    Owner occupied
+        AJ13M003:    Renter occupied
+ 
+    Table 10:    Vacancy Status
+    Universe:    Vacant housing units
+    Source code: B25004
+    NHGIS code:  AJ14
+        AJ14M001:    Total
+        AJ14M002:    For rent
+        AJ14M003:    Rented, not occupied
+        AJ14M004:    For sale only
+        AJ14M005:    Sold, not occupied
+        AJ14M006:    For seasonal, recreational, or occasional use
+        AJ14M007:    For migrant workers
+        AJ14M008:    Other vacant
+ 
+    Table 11:    Units in Structure
+    Universe:    Housing units
+    Source code: B25024
+    NHGIS code:  AJ2J
+        AJ2JM001:    Total
+        AJ2JM002:    1, detached
+        AJ2JM003:    1, attached
+        AJ2JM004:    2
+        AJ2JM005:    3 or 4
+        AJ2JM006:    5 to 9
+        AJ2JM007:    10 to 19
+        AJ2JM008:    20 to 49
+        AJ2JM009:    50 or more
+        AJ2JM010:    Mobile home
+        AJ2JM011:    Boat, RV, van, etc.
+ 
+    Table 12:    Tenure by Units in Structure
+    Universe:    Occupied housing units
+    Source code: B25032
+    NHGIS code:  AJ2K
+        AJ2KM001:    Total
+        AJ2KM002:    Owner-occupied housing units
+        AJ2KM003:    Owner-occupied housing units: 1, detached
+        AJ2KM004:    Owner-occupied housing units: 1, attached
+        AJ2KM005:    Owner-occupied housing units: 2
+        AJ2KM006:    Owner-occupied housing units: 3 or 4
+        AJ2KM007:    Owner-occupied housing units: 5 to 9
+        AJ2KM008:    Owner-occupied housing units: 10 to 19
+        AJ2KM009:    Owner-occupied housing units: 20 to 49
+        AJ2KM010:    Owner-occupied housing units: 50 or more
+        AJ2KM011:    Owner-occupied housing units: Mobile home
+        AJ2KM012:    Owner-occupied housing units: Boat, RV, van, etc.
+        AJ2KM013:    Renter-occupied housing units
+        AJ2KM014:    Renter-occupied housing units: 1, detached
+        AJ2KM015:    Renter-occupied housing units: 1, attached
+        AJ2KM016:    Renter-occupied housing units: 2
+        AJ2KM017:    Renter-occupied housing units: 3 or 4
+        AJ2KM018:    Renter-occupied housing units: 5 to 9
+        AJ2KM019:    Renter-occupied housing units: 10 to 19
+        AJ2KM020:    Renter-occupied housing units: 20 to 49
+        AJ2KM021:    Renter-occupied housing units: 50 or more
+        AJ2KM022:    Renter-occupied housing units: Mobile home
+        AJ2KM023:    Renter-occupied housing units: Boat, RV, van, etc.
+ 
+    Table 13:    Median Year Structure Built
+    Universe:    Housing units
+    Source code: B25035
+    NHGIS code:  AJ2N
+        AJ2NM001:    Median year structure built
+ 
+    Table 14:    Median Year Structure Built by Tenure
+    Universe:    Occupied housing units
+    Source code: B25037
+    NHGIS code:  AJ2P
+        AJ2PM001:    Median year structure built: Total
+        AJ2PM002:    Median year structure built: Owner occupied
+        AJ2PM003:    Median year structure built: Renter occupied
+ 
+    Table 15:    Median Year Householder Moved into Unit by Tenure
+    Universe:    Occupied housing units
+    Source code: B25039
+    NHGIS code:  AJ2R
+        AJ2RM001:    Median year householder moved into unit: Total
+        AJ2RM002:    Median year householder moved into unit: Owner occupied
+        AJ2RM003:    Median year householder moved into unit: Renter occupied
+ 
+    Table 16:    Rent Asked
+    Universe:    Vacant-for-rent and rented, not occupied housing units
+    Source code: B25061
+    NHGIS code:  AJ3B
+        AJ3BM001:    Total
+        AJ3BM002:    Less than $100
+        AJ3BM003:    $100 to $149
+        AJ3BM004:    $150 to $199
+        AJ3BM005:    $200 to $249
+        AJ3BM006:    $250 to $299
+        AJ3BM007:    $300 to $349
+        AJ3BM008:    $350 to $399
+        AJ3BM009:    $400 to $449
+        AJ3BM010:    $450 to $499
+        AJ3BM011:    $500 to $549
+        AJ3BM012:    $550 to $599
+        AJ3BM013:    $600 to $649
+        AJ3BM014:    $650 to $699
+        AJ3BM015:    $700 to $749
+        AJ3BM016:    $750 to $799
+        AJ3BM017:    $800 to $899
+        AJ3BM018:    $900 to $999
+        AJ3BM019:    $1,000 to $1,249
+        AJ3BM020:    $1,250 to $1,499
+        AJ3BM021:    $1,500 to $1,999
+        AJ3BM022:    $2,000 to $2,499
+        AJ3BM023:    $2,500 to $2,999
+        AJ3BM024:    $3,000 to $3,499
+        AJ3BM025:    $3,500 or more
+ 
+    Table 17:    Median Gross Rent (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25064
+    NHGIS code:  AJ3E
+        AJ3EM001:    Median gross rent
+ 
+    Table 18:    Median Gross Rent as a Percentage of Household Income in the Past 12 Months (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25071
+    NHGIS code:  AJ3L
+        AJ3LM001:    Median gross rent as a percentage of household income
+ 
+    Table 19:    Median Value (Dollars)
+    Universe:    Owner-occupied housing units
+    Source code: B25077
+    NHGIS code:  AJ3Q
+        AJ3QM001:    Median value (dollars)
+ 
+    Table 20:    Price Asked
+    Universe:    Vacant-for-sale-only and sold, not occupied housing units
+    Source code: B25085
+    NHGIS code:  AJ3X
+        AJ3XM001:    Total
+        AJ3XM002:    Less than $10,000
+        AJ3XM003:    $10,000 to $14,999
+        AJ3XM004:    $15,000 to $19,999
+        AJ3XM005:    $20,000 to $24,999
+        AJ3XM006:    $25,000 to $29,999
+        AJ3XM007:    $30,000 to $34,999
+        AJ3XM008:    $35,000 to $39,999
+        AJ3XM009:    $40,000 to $49,999
+        AJ3XM010:    $50,000 to $59,999
+        AJ3XM011:    $60,000 to $69,999
+        AJ3XM012:    $70,000 to $79,999
+        AJ3XM013:    $80,000 to $89,999
+        AJ3XM014:    $90,000 to $99,999
+        AJ3XM015:    $100,000 to $124,999
+        AJ3XM016:    $125,000 to $149,999
+        AJ3XM017:    $150,000 to $174,999
+        AJ3XM018:    $175,000 to $199,999
+        AJ3XM019:    $200,000 to $249,999
+        AJ3XM020:    $250,000 to $299,999
+        AJ3XM021:    $300,000 to $399,999
+        AJ3XM022:    $400,000 to $499,999
+        AJ3XM023:    $500,000 to $749,999
+        AJ3XM024:    $750,000 to $999,999
+        AJ3XM025:    $1,000,000 to $1,499,999
+        AJ3XM026:    $1,500,000 to $1,999,999
+        AJ3XM027:    $2,000,000 or more
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 17.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2022. 
+        http://doi.org/10.18128/D050.V17.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
